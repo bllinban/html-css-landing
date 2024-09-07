@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 140px;
+    width: 1440px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    width: 100%;
+    padding: 60px;
+    background-color: white;
+    border-radius: 0 0 40px 60px;
+    /* Закруглення верхніх кутів */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    /* Тінь під елементом */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    /* Підняти над іншими елементами */
+}
+
+.logo {
+    position: absolute;
+    top: 35px;
+    left: 76px;
+    width: 204px;
+    font-weight: 400;
+    height: 44px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.navigation p:hover {
+    border-bottom: 5px solid #ff4242;
+    border-radius: 3px;
+    transition: all 100ms ease;
+}
+
+.nav {
+    position: absolute;
+    top: 50px;
+    left: 751px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+.line1,
+.line2,
+.line3 {
+    position: absolute;
+}
+
+.line1 {
+    width: 46px;
+    height: 7px;
+    top: 39px;
+    left: 1313px;
+    background-color: black;
+}
+
+.line2 {
+    width: 46px;
+    height: 8px;
+    top: 50px;
+    left: 1313px;
+    background-color: black;
+}
+
+.line3 {
+    width: 46px;
+    height: 12px;
+    top: 65px;
+    left: 1313px;
+    background-color: black;
+}
+
+.Clothes {
+    position: absolute;
+    width: 388px;
+    height: 173px;
+    font-weight: 700;
+    top: 251px;
+    left: 226px;
+    font-size: 96px;
+    font-family: Poppins;
+}
+
+.Store {
+    position: absolute;
+    width: 288px;
+    height: 152px;
+    top: 337px;
+    left: 392px;
+    font-weight: 275;
+    font-size: 96px;
+    color: #C10606;
+}
+
+.Lorem {
+    position: absolute;
+    width: 385px;
+    height: 144px;
+    top: 474px;
+    left: 262px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #ff4242;
+    position: absolute;
+    width: 208px;
+    height: 55px;
+    top: 739px;
+    left: 316px;
+    border-radius: 30px;
+    border: 0;
+}
+
+.btn p:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 100ms ease;
+}
+
+.Getst {
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    line-height: 36px;
+}
+
+.shop {
+    position: absolute;
+    width: 464px;
+    height: 488px;
+    top: 592px;
+    left: 905px;
+}
+
+.circle1 {
+    position: absolute;
+    width: 324px;
+    height: 312px;
+    top: 189px;
+    left: 1031px;
+}
+
+.circle2 {
+    position: absolute;
+    width: 180px;
+    height: 72px;
+    top: 582px;
+    left: 851px;
+}
+
+.circle3 {
+    position: absolute;
+    width: 180px;
+    height: 72px;
+    top: 556px;
+    left: 1277px;
+}
+
+.line {
+    position: absolute;
+    width: 1209px;
+    height: 255px;
+    top: 669px;
+    left: 84px;
+}
+
+.circle4 {
+    position: absolute;
+    width: 324px;
+    height: 312px;
+    top: 512px;
+    left: -9px;
+}
